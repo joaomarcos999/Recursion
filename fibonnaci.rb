@@ -1,7 +1,7 @@
 def fibo (num)
-  if num == 0
+  if num == 1
     0
-  elsif num == 1
+  elsif num == 2
     1
   else
     fibo(num - 1) + fibo(num - 2)
